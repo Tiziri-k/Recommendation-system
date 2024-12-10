@@ -56,10 +56,6 @@ Pour l'option combinée, la similarité entre l'image et le texte est calculée 
 \text{similarity\_combined} = w_{\text{image}} \times \text{similarity\_image} + w_{\text{text}} \times \text{similarity\_text}
 \]
 
-Où :
-- \( w_{\text{image}} \) et \( w_{\text{text}} \) sont des poids ajustables.
-- \( \text{similarity\_image} \) et \( \text{similarity\_text} \) sont les scores de similarité respectifs pour l'image et le texte.
-
 ## Validation
 
 La plateforme a été testée sur des pratiques pour évaluer la pertinence des recommandations. Les résultats montrent que la plateforme est capable de fournir des recommandations précises en fonction de l'image ou de la description textuelle fournie par l'utilisateur. La fonctionnalité combinée améliore la précision en tenant compte des deux types de données.
